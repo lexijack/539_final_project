@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexi Jack's Portfolio</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+    <header>
+        <div class="skip"><a href="">Skip to Main Content</a></div>
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "projects.html">Projects</a></li>
+                <li><a href = "resume.html">Resume</a></li>
+                <li><a href = "learning.html">Currently Learning</a></li>
+            </ul>
+        </nav>
+        <h1>What am I learning right now?</h1>
+    </header>
+    <main class="container" id = "main">
+    <h2>Besides HTML and CSS...</h2>
+    <div class="cheffing">
+    <h3 id="cook">learning to cook!</h3>
+    <p>I was on a meal plan for all four years of undergrad, as I was a student athlete. Being in Ann Arbor, I am learning how to cook for myself, and enjoying the craft of discovering new recipes and making them my own. Below are come pictures of things I have cheffed up recently!</p>
+    <div class="gallery">
+        <div class="griditem">
+          <img src="images/food1.jpeg" alt="Photo of pasta on plate"/></a>
+          <figcaption>Butternut Squash Carbonara</figcaption>
+        </div>
+        <div class="griditem">
+         <img src="images/food2.jpeg" alt="Photo of chicken and brussels Sprouts on plate" /></a>
+         <figcaption>Bruschetta Chicken Cutlet and Brussels Sprouts</figcaption>
+        </div>
+        <div class="griditem">
+            <img src="images/food3.jpeg"  alt="Photo of salad and wine glass on balcony"/></a>
+            <figcaption>Peach, Burratta and Pistachio Arugala Salad</figcaption>
+          </div>
+          <div class="griditem">
+            <img src="images/food4.jpeg" alt="Photo of rolls on plate" /></a>
+            <figcaption>Pumpkin Dinner Rolls</figcaption>
+          </div>
+          <div class="griditem">
+            <img src="images/food5.jpeg" alt="Photo of lettuce wraps on plate" /></a>
+            <figcaption>Thai Chicken Lettuce Wraps</figcaption>
+          </div>
+      </div>
+    </div>
+
+
+
+
+</main>
+<footer id = "footer1">
+        <p>© Copyrights <span id="year"></span> by Lexi Jack. All rights reserved.</p>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+            </script>
+    </footer>
+</body>
+</html>

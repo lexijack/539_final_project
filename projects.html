@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexi Jack's Portfolio</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+    <header>
+        <div class="skip"><a href="">Skip to Main Content</a></div>
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "projects.html">Projects</a></li>
+                <li><a href = "resume.html">Resume</a></li>
+                <li><a href = "learning.html">Currently Learning</a></li>
+            </ul>
+        </nav>
+        <h1>My Projects</h1>
+    </header>
+    <main class="container" id = "main">
+    <h2>Here you'll find some projects I have worked on. Click on a project to see more about it!</h2>
+
+        <div class="gallery">
+            <div class="griditem">
+              <a href="gale.html"><img src="images/gale1.png"  alt="Photo of Gale Support Site on laptop" /></a>
+              <figcaption>Gale Support Website Redesign</figcaption>
+            </div>
+            <div class="griditem">
+              <a href="umic.html"><img src="images/umic.png" alt="Photo of U of M International Center website on iPhone" /></a>
+              <figcaption>UofM International Center Website Redesign</figcaption>
+            </div>
+          </div>
+   
+
+
+</main>
+<footer id = "footer1">
+        <p>© Copyrights <span id="year"></span> by Lexi Jack. All rights reserved.</p>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+            </script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexi Jack's Portfolio</title>
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+    <header>
+        <div class="skip"><a href="">Skip to Main Content</a></div>
+        <nav>
+            <ul>
+                <li><a href = "index.html">Home</a></li>
+                <li><a href = "projects.html">Projects</a></li>
+                <li><a href = "resume.html">Resume</a></li>
+                <li><a href = "learning.html">Currently Learning</a></li>
+            </ul>
+        </nav>
+        <div class="typed-out"> <h1>Hello, I'm Lexi Jack...UX Researcher and Data Enthusiast.</h1></div>
+    </header>
+    <main id = "main">
+    <div class="quote">
+       <h2 id="quote"> "Usability is like love. You have to care, you have to listen, and you have to be willing to change."</h2>
+    </div>
+    <div class="author">
+       <h2 id="author"> - Jeffrey Zeldman</h2>
+    </div>
+    <div class="about-me">
+        <div class="about-title">About Me</div>
+        <img src="images/me.JPG" alt="Photo of Lexi Jack" class="profile-pic">
+        <p>
+            I am a UX researcher and data analyst passionate about improving lives through the intersection of people and technology. With a strong foundation in psychology and statistics, I leverage data-driven insights to understand user behavior, inform design, and drive business decisions. As a Master student at the University of Michigan School of Information, I am dedicated to creating user-centered solutions that help people and products thrive. <a href="projects.html">Click the project tab to explore my process and approach.</a>
+        </p>
+    </div>
+    <div class="skills-container">
+        <div class="skills-title">Skills</div>
+            <div class="skills-column" id="my-software">
+                <h4 class="sub-title">Software</h4>
+                <ul>
+                    <li>Qualtrics</li>
+                    <li>Python</li>
+                    <li>Miro</li>
+                    <li>R</li>
+                    <li>SQL</li>
+                    <li>SPSS</li>
+                    <li>Figma</li>
+                    <li>SAS</li>
+                    <li>Tableau</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+        
+                <h4 class="sub-title">Methods</h4>
+                <ul>
+                    <li>Statistical Analysis</li>
+                    <li>A/B Testing</li>
+                    <li>Surveys</li>
+                    <li>Information Architecture</li>
+                    <li>In-Depth Interviews</li>
+                    <li>Card Sorting</li>
+                    <li>Wireframing</li>
+                    <li>Usability Testing</li>
+                    <li>Heuristic Evaluation</li>
+                    <li>Accessibility</li>
+                    <li>AI</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <div class="contact-title">Contact Me</div>
+            <p class="contact-text">
+                If you are interested in speaking more about my project experience, professional background, or work capabilities, please feel free to reach out to me via any of the following outlets. I would love to connect with you on LinkedIn too!
+            </p>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/lexi-jack" target="_blank" class="contact-link">LinkedIn</a>
+                <a href="mailto:lexijack@umich.edu" class="contact-link">Email</a>
+                <a href="resume.html" class="contact-link">Resume</a>
+            </div>
+        </div>
+
+</main>
+<footer id = "footer1">
+        <p>© Copyrights <span id="year"></span> by Lexi Jack. All rights reserved.</p>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+            </script>
+    </footer>
+    <script src="my_project.js"></script>
+</body>
+</html>
