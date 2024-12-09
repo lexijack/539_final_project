@@ -40,6 +40,9 @@ body {
      }
 
   }
+  *:focus{
+    outline: 2px solid #0073e6;
+  }
 
 h1 {
     text-align: center;
@@ -126,7 +129,7 @@ nav ul li a.active-page
     margin-bottom: 30px;
 }
 
-.section-title {
+.section-title, #contactme {
     font-size: 20px;
     background-color: #e6e6e6;
     padding: 10px;
