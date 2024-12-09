@@ -76,6 +76,43 @@
                 <a href="mailto:lexijack@umich.edu" class="contact-link">Email</a>
                 <a href="resume.html" class="contact-link">Resume</a>
             </div>
+            <br>
+        <form
+            action="https://formspree.io/f/xbljeond"
+            method="POST"
+          >
+        <fieldset>
+            <legend id="contactme">Contact Lexi Jack Here:</legend>
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text"  name="last-name" id="last-name" required>
+
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email" required>
+
+            <div class="interest">
+                <p>Reason for Contact</p>
+                <input type="radio" id="networking" name="interest-reason" value="networking">
+                <label for="networking">Networking</label>
+
+                <input type="radio" id="opportunity" name="interest-reason" value="opportunity">
+                <label for="opportunity">Opportunity of Interest</label>
+
+                <input type="radio" id="collab" name="interest-reason" value="collab">
+                <label for="collab">Collaboration</label>
+
+                <input type="radio" id="freelance" name="interest-reason" value="freelance">
+                <label for="freelance">Freelance Work</label>
+            </div>
+            <br>
+            <label for="message">Type your message here:</label>
+            <input type="textarea" name="message" id="message" required>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
         </div>
 
 </main>
